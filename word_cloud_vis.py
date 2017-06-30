@@ -6,10 +6,10 @@ import numpy as np
 
 
 # Read the text from our chosen file
-text = open('plato_symposium.txt').read()
+text = open('media/plato_symposium.txt').read()
 
 # Get image mask
-cloud_mask = np.array(Image.open('symposium_sillohuette.png'))
+cloud_mask = np.array(Image.open('media/symposium_sillohuette.png'))
 
 # Set stopwords (words that we do not want in the word cloud)
 stopwords = set(STOPWORDS)
